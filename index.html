@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gra: Space defender</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <h1>Space defender</h1>
+
+  <div id="game-board">
+    <div id="player"></div>
+    <div class="points">
+      <img src="./img/coin.png" />
+      <span id="score">0</span>
+    </div>
+    <div id="lifes"></div>
+    <div id="game-end" class="card">
+      <h2>Koniec gry:(</h2>
+      Kosmiczne statki przedostały się na Ziemię...
+      <br><br>
+      <button id="start-again" class="button">Zacznij od nowa</button>
+    </div>
+    <div id="game-start" class="card">
+      <h2>Zostań obrońcą Ziemi!</h2>
+      Nie pozwól, aby kosmiczne statki przdostały się na Ziemię.
+      <br><br>
+      <code>Strzałki</code> - poruszanie<br>
+      <code>Spacja</code> - strzał<br>
+      <br><br>
+      <button id="start" class="button">Start</button>
+    </div>
+  </div>
+  
+  <script src="./js/app.js" type="module"></script>
+  
+</body>
+</html>
